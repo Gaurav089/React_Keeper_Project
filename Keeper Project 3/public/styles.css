@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  padding: 0 16px;
+}
+
+header {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.form {
+  text-align: center;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  width: 590px;
+  height: 180px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.input[type="text"] {
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 580;
+}
+
+.input[type="text"] {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #f5ba13;
+}
+
+.title {
+  text-align: left;
+  height: 60px;
+  width: 590px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 25px;
+  font-weight: 200;
+  width: 580;
+  outline: none;
+}
+::placeholder {
+  color: gray;
+  opacity: 1;
+}
+
+.textarea {
+  text-align: left;
+  padding-top: 5px;
+  height: 83px;
+  width: 560px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 25px;
+  font-weight: 200;
+  width: 580;
+  outline: none;
+  resize: none;
+}
+::placeholder {
+  color: gray;
+  opacity: 1;
+}
+
+.button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #f5ba13;
+  color: #fff;
+  font-size: 20px;
+  border-width: 0;
+  text-items: right;
+  float: right;
+}
